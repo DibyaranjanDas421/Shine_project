@@ -1,0 +1,156 @@
+.navbar{
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.1px solid rgb(167, 157, 157);
+    
+   
+}
+.main-container .navbar {
+    position: fixed;
+}
+
+
+#logoimage{
+    height: 5.4rem;
+    width: 12rem;
+    margin-left: 0rem;
+}
+.containt{
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 0.7rem;
+    font-family: "Dosis", sans-serif;
+   
+    
+}
+.containt a{
+    text-decoration: none;
+    color:black;
+    margin-left: 8rem;
+    font-weight: 400;
+    
+}
+
+#srch{
+ margin-right: 4rem;
+}
+.navbar .containt .type  #srch{
+    margin-top: 9rem;
+}
+.type i {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+.Front_page .banner img{
+    width: 100%;
+    margin-top: 6.04rem;
+}
+.heading {
+    text-align: center;
+    opacity: 0.8;
+}
+.heading h4 {
+    margin-top: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.product{
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    
+}
+.product #pro{
+   height: 28rem;
+   width: 20%;
+   background-color: #f4f4f4;
+   border-radius: 2rem;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.product #pro:hover{
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ height: 30rem;
+}
+#prod1{
+    width: 14rem;
+    height: 14rem;
+    padding-top: 0.8rem;
+    padding-left: 2rem;
+    
+}
+.product1{
+    margin-top: 2rem;
+}
+.product .product1 img{
+    border-radius: 0rem;
+}
+
+
+.product .product1 li{
+    list-style-type: none;
+}
+
+#line{
+    color: red;
+    text-decoration: line-through;
+}
+
+
+.sub-product{
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+#tax{
+    opacity: 0.6;
+}
+.sub-product li {
+    padding-left: 3.5rem;
+}
+span{
+    color: orange;
+    
+    
+}
+.product1 .sub-product span{
+    margin-left: 1rem
+  
+ 
+}
+#tax {
+    margin-left: 1.2rem;
+}
+.product1 .sub-product a {
+    color: #f7418f;
+}
+#offer {
+    margin-left: 2.5rem;
+    
+    text-decoration: none;
+}
+#money1{
+    padding-left: 3rem;
+}
+.desc{
+    display: flex;
+}
+.desc p{
+    color: green;
+    margin-left: 0.3rem;
+}
+.desc li {
+  margin-left: -2.0rem;
+}
+.craft button{
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    
+}
+.craft button,
+button:active,
+button:focus {
+  outline: none;
+}

@@ -1,0 +1,182 @@
+.navbar{
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.1px solid rgb(167, 157, 157);
+    
+   
+}
+.main-container .navbar {
+    position: fixed;
+}
+
+
+#logoimage{
+    height: 5.4rem;
+    width: 12rem;
+    margin-left: 0rem;
+}
+.containt{
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 0.7rem;
+    font-family: "Dosis", sans-serif;
+   
+    
+}
+.containt a{
+    text-decoration: none;
+    color:black;
+    margin-left: 8rem;
+    font-weight: 400;
+    
+}
+
+#srch{
+ margin-right: 4rem;
+}
+.navbar .containt .type  #srch{
+    margin-top: 9rem;
+}
+.type i {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+.Front_page .banner img{
+    width: 100%;
+    margin-top: 6.04rem;
+}
+.heading {
+    text-align: center;
+    opacity: 1;
+    color:#f7418f;
+    
+}
+.heading h4 {
+    margin-top: 3rem;
+    font-family: "Dosis", sans-serif;
+    
+}
+
+
+
+.product{
+    height: 35rem;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+}
+
+.product1{
+    height: 28rem;
+    width: 20%;
+    background-color:#f4f4f4;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   
+}
+
+#prod-image{
+    height: 14rem;
+    width: 14rem;
+    border-radius: 0.7rem;
+}
+
+.sub-div p{
+    padding-left: 0.3rem;
+}
+.desc{
+    display: flex;
+}
+.desc p{
+    color: green;
+    margin-left: 0.3rem;
+}
+.desc li {
+  margin-left: 2.0rem;
+  list-style-type: none;
+}
+#line{
+    list-style-type: none;
+    padding-left: 3.6rem;
+    text-decoration: line-through;
+    color: red;
+    
+}
+.star{
+    margin-left: 2.8rem;
+    margin-bottom: 1rem
+}
+#tax{
+    padding-left: 1.6rem;
+}
+#offer{
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: aqua;
+}
+
+.craft{
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: -0.6rem;
+    display: none;
+    color: #f4f4f4;
+    background-color:#f4f4f4 ;
+}
+.craft button{
+    border: none;
+    margin-left: 7rem;
+    color: #f7418f;
+    background-color: #f4f4f4;
+}
+.craft i{
+    font-size: 1.3rem;
+    color: #f7418f;
+}
+
+
+.product1:hover{
+    height: 31rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.product1:hover .craft{
+    
+    display: block;
+    color: #f4f4f4;
+    
+}
+.product11{
+    height: 35rem;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+
+}
+.heading1{
+    height: 3rem;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+   
+}
+
+

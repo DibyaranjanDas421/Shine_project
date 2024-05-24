@@ -1,0 +1,540 @@
+/* /* .product{
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    
+}
+.product .product1{
+   height: 28rem;
+   width: 20%;
+   background-color: #f4f4f4;
+   border-radius: 2rem;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.product1:hover{
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ height: 30rem;
+ 
+
+}
+#prod1{
+    width: 14rem;
+    height: 14rem;
+    padding-top: 0.8rem;
+    padding-left: 2rem;
+    
+}
+.product1{
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    flex-wrap: nowrap;
+}
+
+
+
+.product .product1 li{
+    list-style-type: none;
+}
+
+#line{
+    color: red;
+    text-decoration: line-through;
+}
+
+
+.sub-product{
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+#tax{
+    opacity: 0.6;
+}
+.sub-product li {
+    padding-left: 3.5rem;
+}
+span{
+    color: orange;
+    
+    
+}
+.product1 .sub-product span{
+    margin-left: 1rem
+  
+ 
+}
+#tax {
+    margin-left: 1.2rem;
+}
+.product1 .sub-product a {
+    color: #f7418f;
+}
+#offer {
+    margin-left: 2.5rem;
+    
+    text-decoration: none;
+}
+#money1{
+    padding-left: 3rem;
+}
+.desc{
+    display: flex;
+}
+.desc p{
+    color: green;
+    margin-left: 0.3rem;
+}
+.desc li {
+  margin-left: -2.0rem;
+}
+.craft button{
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    
+}
+#bag {
+    border: none;
+    background-color: #f4f4f4;
+    color: #f7418f;
+    position: absolute;
+    height: 1rem;
+    
+  }
+  .craft{
+    width: 15rem;
+    height: 3rem;
+    /* border: 2px solid green; */
+   /* .movement_img{
+    margin-left: 10rem;
+   }
+   .img1{
+    width: 80%;
+    /* margin-left: 10rem; */
+    .main-container {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        height: 6rem;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 0.1px solid rgb(54, 54, 54);
+        margin-top: 0rem;
+        z-index: 999;
+        top: 0;
+        font-family: "Roboto", sans-serif;
+        
+       
+    }
+    .main-container .navbar {
+        position: fixed;
+    }
+    
+    
+    #logoimage{
+        height: 5.4rem;
+        width: 12rem;
+        margin-left: 0rem;
+    }
+    .containt{
+        position: absolute;
+        margin-left: 12rem;
+        margin-top: 0.7rem;
+        font-family: "Roboto", sans-serif;
+        
+       
+        
+    }
+    .containt a{
+        text-decoration: none;
+        color:black;
+        margin-left: 8rem;
+        font-weight: 500;
+        
+    }
+    
+    #srch{
+     margin-right: 4rem;
+    }
+    .navbar .containt .type  #srch{
+        margin-top: 9rem;
+    }
+    .type i {
+        margin-top: 0.5rem;
+        font-size: 1.1rem;
+        opacity: 0.8;
+    }
+   
+    
+    
+    .product{
+        height: 35rem;
+        width: 100%;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        justify-content: space-evenly;
+    }
+    
+    .product1{
+        height: 28rem;
+        width: 20%;
+        background-color:#f4f4f4;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        padding-top: 0.8rem;
+        padding-left: 1rem;
+        border-radius: 0.7rem;
+        cursor: pointer;
+        transition: all 0.1s ease;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+       
+    }
+    
+    #prod-image{
+        height: 14rem;
+        width: 14rem;
+        border-radius: 0.7rem;
+    }
+    
+    .sub-div p{
+        padding-left: 0.3rem;
+    }
+    .desc{
+        display: flex;
+    }
+    .desc p{
+        color: green;
+        margin-left: 0.3rem;
+    }
+    .desc li {
+      margin-left: 2.0rem;
+      list-style-type: none;
+    }
+    #line{
+        list-style-type: none;
+        padding-left: 3.6rem;
+        text-decoration: line-through;
+        color: red;
+        
+    }
+    .star{
+        margin-left: 2.8rem;
+        margin-bottom: 1rem
+    }
+    #tax{
+        padding-left: 1.6rem;
+    }
+    #offer{
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+        text-decoration: none;
+        color: aqua;
+    }
+    
+    .craft{
+        margin-top: 0.5rem;
+        height: 2rem;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        margin-left: -0.6rem;
+        display: none;
+        color: #f4f4f4;
+        background-color:#f4f4f4 ;
+    }
+    .craft button{
+        border: none;
+        margin-left: 7rem;
+        color: #f7418f;
+        background-color: #f4f4f4;
+    }
+    .craft i{
+        font-size: 1.3rem;
+        color: #f7418f;
+    }
+    
+    
+    .product1:hover{
+        height: 31rem;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    
+    
+    .product1:hover .craft{
+        
+        display: block;
+        color: #f4f4f4;
+        
+    }
+    .product11{
+        height: 35rem;
+        width: 100%;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        justify-content: space-evenly;
+        margin-top: 0.5rem;
+    
+    }
+    .heading1{
+        height: 3rem;
+        width: 100%;
+        background-color:rgb(255, 255, 255);
+        justify-content: center;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+       
+    }
+    
+    
+    
+  
+
+    
+
+    .front{
+        height: 25rem;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    
+        
+    }
+    .heading{
+      text-align: center;
+      margin-bottom: 0rem;
+      color: #000000;
+      font-family: "Roboto", sans-serif;
+     
+    }
+    /* .heading h3{
+        /* font-weight: 400;
+    } */
+
+
+    .mega-menu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .mega-menu-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .mega-menu-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .mega-menu:hover .mega-menu-content {
+        display: block;
+    }
+    .mega-menu-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block; /* Ensures each link is on a new line */
+        white-space: nowrap; /* Prevents text from wrapping */
+        margin-left: 0; /* Resets any left margin */
+        text-align: left; /* Aligns text to the left */
+    }
+    .footer{
+        width: 100%;
+        height: 25rem;
+        
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: space-between;
+      
+       
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+    }
+     .footer #ft{
+        height:20rem ;
+        width:20% ;
+        background-color: #f4f4f4;
+        margin-top: 3rem;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        border-right: 0.2px solid rgb(143, 139, 139);
+     }
+     .footer .social a {
+        margin-left: 2rem;
+        font-size: 1.5rem;
+     }
+     .footer .About ul li  {
+        list-style-type: none;
+        font-size: 1rem;
+        margin-top: 2rem
+     }
+     .footer .About ul li a {
+        text-decoration: none;
+        color: #000000;
+     }
+    .footer .About ul {
+        text-align: center;
+        margin-right: 2rem;
+       
+    }
+    .footer #ft.Follow {
+        border-right: none;
+    }
+    .footer .help ul{
+        text-align: center;
+    }
+    .footer .help ul li{
+        list-style-type: none;
+        margin-top: 2rem;
+        margin-right: 3rem;
+        
+    }
+    .footer .help ul  li a{
+        text-decoration: none;
+        color: #ffffff;
+        
+    }
+    .footer .help ul  li a:hover{
+        text-decoration: none;
+    }
+    .logo_f img{
+        height: 5rem;
+        width: 10rem;
+      
+        
+        margin-right: 35rem;
+        background-color: #f4f4f4;
+        margin-left: 2rem;
+    
+    }
+    .logo_f .gmail{
+        margin-right: 2.9rem;
+
+    }
+      
+      
+    .help ul #faq{
+        white-space: nowrap;
+    }
+    .logo_f  p{
+        margin-top: 0.8rem;
+        margin-right: 1.00rem;
+        font-size: 0.9rem;
+        
+    }
+    .social{
+        margin-right: 1rem;
+        
+    }
+    #bag {
+        font-size: 1.0rem;
+        
+    }
+     #sc{
+        margin-left: 2rem;
+     }
+     .footer .social{
+        display: flex;
+        margin-right: 10rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    
+     }
+     .main {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background: #BBD2C5;  /* fallback for old browsers */
+        background-color: whitesmoke;
+
+
+     }
+     .nav_bar{
+        display: flex;
+        font-family: "Roboto", sans-serif;
+        font-weight: 450;
+        background-color: #f4f4f4;
+
+     }
+     .prods a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin-left: 3rem;
+        
+     }
+     #logo_prod{
+        height: 6rem;
+        width: 10rem;
+     }
+     .prods{
+        
+        background-color: rgb(255, 255, 255);
+        height: 4rem;
+        width: 100%;
+        padding-top: 2.3rem;
+        background-color: #f4f4f4;
+        
+     }
+     .search-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 0.4rem;
+        margin-right: 0.4rem;
+        
+      }
+      
+      .search-input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 10px;
+        width: 0;
+        opacity: 0;
+        transition: all 0.3s ease;
+        
+      }
+      
+      .search-input:focus {
+        width: 150px;
+        opacity: 1;
+        
+
+      }
+      
+      .search-icon {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        margin-left: 10px;
+        
+        
+
+      }
+      
+      .material-icons {
+        font-size: 1.2rem;
+        line-height: 1;
+        vertical-align: middle;
+
+      }
+      input[type="search"] {
+        width: 400px;
+        padding: 5px;
+      }
+      .nav_bar{
+        border-bottom: 0.2px solid black;
+      }
